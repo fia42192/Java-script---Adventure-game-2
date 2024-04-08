@@ -34,7 +34,7 @@ document.addEventListener("DOMContentLoaded", function() {
                                 alert("Nyní budeš muset odpověďet na dvě otázky, první odpovědí vypneš lasery a druhou odpovědí otevřeš dveře. Odpověz celým jménem.")
                                 let kod3 = prompt("Otázka zní: Kdo byl prvním prezidentem Československa v letech 1953-1957? ")
                                 let kod4 = prompt("Otázka zní: Kdo ho nahradil v roce 1957?")
-                                if (kod3 === "Antonín Zápotocký" & kod4 === "Antonín Novotný") {
+                                if (kod3 === "Antonín Zápotocký" && kod4 === "Antonín Novotný") {
                                     alert("Správné odpovědi, lasery jsou vypnuty a můžeš pokračovat dále.")
                                     alert("Před sebou vidíš dveře, které však nejsou zamčené, otevíráš je a procházíš chodbou dále.")
                                     // třetí klíč
